@@ -111,7 +111,6 @@ a.card-link:hover {
   outline: none;
   margin-top: 25px;
   width: 100%;
-  padding: 12px 0px;
   background: linear-gradient(64deg, #d4ccccab, #ddd);
   border: 1px solid #ddd;
 }
