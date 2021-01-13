@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================ 
+    General CSS
+===================*/
+h1 {
+  padding: 5px 0px 15px 0px;
+}
+.cards {
+  /* display: block; */
+  box-shadow: 1px 3px 14px 7px #ddd;
+  border: 1px solid #ddd;
+  width: 55rem;
+  height: 34rem;
+  padding: 20px 15px 13px 27px;
+  margin: 5rem auto;
+  /* text-align: center; */
+  border-radius: 6px;
+  /* border-bottom-right-radius: 47px; */
+  /* border-right: 1px solid #ddd; */
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+img {
+  object-fit: contain;
+}
+.card-info {
+  margin-bottom: 45px;
+  padding-left: 5px;
+  padding-top: 15px;
+  text-align: justify;
+}
+h2 {
+  /* text-align: center; */
+  font-size: 1.2rem;
+  padding-bottom: 14px;
+  padding-top: 10px;
+}
+p {
+  line-height: 20px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
+a.card-link {
+  display: block;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: midnightblue;
+  padding: 12px 0px;
+  transition: all 0.3s ease-in;
+}
+.card-link:hover,
+.card-link:active {
+  color: #fff;
+  background: #008080d6;
+}
+a.card-link:visited {
+  color: midnightblue;
+  background: linear-gradient(64deg, #d4ccccab, #ddd);
+}
+
+.card-img {
+  padding-top: 15px;
+  text-align: center;
+  background: #f6f6f6;
+  width: 100%;
+  height: 198px;
+}
+
+/* ============= CARD-2 ==============*/
+.card-1 {
+  height: 27.5rem;
+  border-right: 1px solid #f6f6f6;
+  border-bottom: 1px solid #ddd;
+  margin-right: 22px;
+  float: left;
+  width: 25rem;
+  position: relative;
+  padding: 15px;
+  box-shadow: 6px 6px 6px 2px #f6f6f6;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #fdecec;
+  border-radius: 5px;
+}
+
+/* ============= CARD-2 ==============*/
+.card-2 {
+  height: 27.5rem;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  /* margin-right: 5px; */
+  float: left;
+  width: 25rem;
+  position: relative;
+  padding: 15px;
+  /* box-shadow: 10px 12px 11px 0px #f6f6f6; */
+  border-top: 1px solid #eee;
+  border-left: 1px solid #fdecec;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px 2px #f6f6f6;
+}
+
+/* ============= BTN-1,2 ==============*/
+.card-btn-1,
+.card-btn-2 {
+  outline: none;
+  margin-top: 25px;
+  width: 100%;
+  background: linear-gradient(64deg, #d4ccccab, #ddd);
+  border: 1px solid #ddd;
+}
