@@ -57,7 +57,7 @@ a.card-link {
   text-decoration: none;
   color: midnightblue;
   padding: 12px 0px;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 }
 .card-link:hover,
 .card-link:active {
