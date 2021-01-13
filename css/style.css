@@ -12,7 +12,7 @@ h1 {
 }
 .cards {
   /* display: block; */
-  box-shadow: 5px 2px 7px 0px #ddd;
+  box-shadow: 1px 3px 14px 7px #ddd;
   border: 1px solid #ddd;
   width: 55rem;
   height: 34rem;
@@ -55,6 +55,7 @@ a.card-link {
   text-align: center;
   text-decoration: none;
   color: midnightblue;
+  padding: 12px 0px;
 }
 
 .card-img {
@@ -98,17 +99,9 @@ a.card-link {
   box-shadow: 3px 10px 8px 2px #f6f6f6;
 }
 
-/* ============= BTN-1 ==============*/
-button.card-btn-1 {
-  outline: none;
-  margin-top: 25px;
-  width: 100%;
-  padding: 12px 0px;
-  background: linear-gradient(64deg, #d4ccccab, #ddd);
-  border: 1px solid #ddd;
-}
-/* ============= BTN-2 ==============*/
-button.card-btn-2 {
+/* ============= BTN-1,2 ==============*/
+button.card-btn-1,
+.button.card-btn-2 {
   outline: none;
   margin-top: 25px;
   width: 100%;
