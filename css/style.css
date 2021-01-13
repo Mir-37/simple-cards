@@ -56,6 +56,11 @@ a.card-link {
   text-decoration: none;
   color: midnightblue;
   padding: 12px 0px;
+  transition: all 0.3s ease-in;
+}
+a.card-link:hover {
+  color: #fff;
+  background: #008080d6;
 }
 
 .card-img {
