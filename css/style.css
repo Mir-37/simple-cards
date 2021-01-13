@@ -59,9 +59,14 @@ a.card-link {
   padding: 12px 0px;
   transition: all 0.3s ease-in;
 }
-a.card-link:hover {
+.card-link:hover,
+.card-link:active {
   color: #fff;
   background: #008080d6;
+}
+a.card-link:visited {
+  color: midnightblue;
+  background: linear-gradient(64deg, #d4ccccab, #ddd);
 }
 
 .card-img {
