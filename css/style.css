@@ -49,6 +49,7 @@ p {
 }
 
 a.card-link {
+  display: block;
   letter-spacing: 2px;
   font-size: 0.9rem;
   outline: none;
@@ -105,8 +106,8 @@ a.card-link:hover {
 }
 
 /* ============= BTN-1,2 ==============*/
-button.card-btn-1,
-.button.card-btn-2 {
+.card-btn-1,
+.card-btn-2 {
   outline: none;
   margin-top: 25px;
   width: 100%;
